@@ -66,7 +66,7 @@ export default function Charts(){
               <ComposedChart data={data}>
               <CartesianGrid stroke="#f5f5f5" />
           <XAxis dataKey="year" label={{ value: 'years', position: 'insideBottomRight', offset: 0 }} scale="band" />
-          <YAxis label={{ value: 'Index', angle: -90, position: 'insideLeft' }} />
+          <YAxis label={{ value: 'Rupees', angle: -90, position: 'insideLeft' }} />
           <Tooltip />
           <Legend />
           <Area type="monotone" dataKey="amt" fill="#8884d8" stroke="#8884d8" />

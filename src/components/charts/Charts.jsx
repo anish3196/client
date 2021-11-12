@@ -61,7 +61,7 @@ export default function Charts(){
       ];
     return(
         <div className="chart">
-          <h3 className="chartTitle">Compony Invetment</h3>
+          <h3 className="chartTitle">Compony Investment</h3>
           <ResponsiveContainer width="100%" aspect={4/1}>
               <ComposedChart data={data}>
               <CartesianGrid stroke="#f5f5f5" />

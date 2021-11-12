@@ -10,7 +10,7 @@ export default function Sidear() {
                     <h3 className="sidebarTitle">DashBoard</h3>
                     <ul className="sidebarList">
                     <li className="sidebarListItems">
-                      <HomeOutlined className="sidebraIcon "/>
+                      <HomeOutlined className="sidebraIcon"/>
                       Home
                     </li>
                     <li className="sidebarListItems">
